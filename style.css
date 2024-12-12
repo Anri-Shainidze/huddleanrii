@@ -234,6 +234,9 @@ footer .columns .right-column .newsletter-input input{
     cursor: pointer;
     color: #00ffff;
 }
+
+
+
 @media(max-width:768px){
     .section_flex{
         gap:6rem;
