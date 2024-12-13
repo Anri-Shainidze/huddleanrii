@@ -1,15 +1,15 @@
+body{
+    min-height: 100vh;
+    font-family: 'open sans';
+    line-height: 1.5;
+}
+
+
 *{
     padding:0;
     margin:0;
     box-sizing:border-box;
     text-decoration:none;
-}
-:root{
-    --pink: hsl(322, 100%, 66%);
-    --light-pink: hsl(321, 100%, 78%);
-    --light-red: hsl(0, 100%, 63%);
-    --very-dark-cyan: hsl(192, 100%, 9%);
-    --very-pale-blue:hsl(207,100%,98);
 }
 
 h1, h2, h3, h4, button, input, label{
@@ -25,10 +25,15 @@ input, button, textarea, select{
     font: inherit;
 }
 
-body{
-    min-height: 100vh;
-    font-family: 'open sans';
-    line-height: 1.5;
+
+
+
+:root{
+    --pink: hsl(322, 100%, 66%);
+    --light-pink: hsl(321, 100%, 78%);
+    --light-red: hsl(0, 100%, 63%);
+    --very-dark-cyan: hsl(192, 100%, 9%);
+    --very-pale-blue:hsl(207,100%,98);
 }
 
 .section-flex{
